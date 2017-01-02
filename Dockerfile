@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:alpine
 ENV DIR /root
 WORKDIR ${DIR}
 COPY app.js ${DIR}/app.js
